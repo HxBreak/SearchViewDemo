@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="IndexScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="searchViewStyle">@style/AppSearchViewTheme</item>
+        <item name="android:textColorSecondary">#000000</item>
+    </style>
+
+    <style name="AppSearchViewTheme" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:queryHint">"Hello"</item>
+        <item name="closeIcon">@mipmap/ic_launcher_round</item>
+        <item name="searchIcon">@null</item>
+    </style>
+
+    <style name="AppSearchBar" parent="@style/ThemeOverlay.AppCompat.Dark"></style>
+</resources>
